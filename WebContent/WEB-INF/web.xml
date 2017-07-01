@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>Index</servlet-name>
+    <servlet-class>web.Index</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateCV</servlet-name>
+    <servlet-class>web.CreateCV</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifCV</servlet-name>
+    <servlet-class>web.ModifCV</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>SuppCV</servlet-name>
+    <servlet-class>web.SuppCV</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Index</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateCV</servlet-name>
+    <url-pattern>/Create/CV</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifCV</servlet-name>
+    <url-pattern>/Modif/CV/*</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>SuppCV</servlet-name>
+    <url-pattern>/Supp/CV/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/bower_components/*</url-pattern>
+  </servlet-mapping>
+</web-app>

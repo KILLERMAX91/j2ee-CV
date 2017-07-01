@@ -1,0 +1,7 @@
+{
+	"name": "CV",
+	"dependencies": {
+		"bootstrap":"#^3.3.7 ",
+		"eonasdan-bootstrap-datetimepicker":"#^4.17.47"
+	}
+}
