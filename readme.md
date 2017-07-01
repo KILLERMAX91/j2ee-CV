@@ -23,7 +23,7 @@ yarn install
 ```
 	
 ```
-yarn run bower install
+yarn run bower update
 ```
 	
 	
@@ -38,5 +38,5 @@ npm install
 ```
 
 ```
-npm run bower install
+npm run bower update
 ```
